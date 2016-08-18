@@ -1,7 +1,7 @@
 * {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: black;
+	color: white;
 /*	border: 1px dashed red;*/
 	margin: 0;
 }
@@ -35,6 +35,10 @@ hr {
 	hr.white-line {
 		background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
 	}
+	hr.black-line {
+		background-image: linear-gradient(to right, white, black, white);
+	}
+
 
 a {
     -webkit-transition: all .35s;
@@ -81,7 +85,6 @@ nav {
 #home{
 	position: relative;
 	top: 4px;
-
 }
 
 /*********************image********************/
@@ -114,7 +117,6 @@ img#forest-sam-cropped {
 		text-align: center;
 		font-size: 72px;
 		font-weight: lighter;
-		color: white;
 	}
 	#subtitle {
 		text-align: center;
@@ -144,3 +146,24 @@ img#forest-sam-cropped {
 			width: 20%;
 			height: 50px;
 		}
+
+/*----------------------------------experience-----------------------------------*/
+
+#experience{
+	background-color: rgb(56,87,35);
+}
+
+/*----------------------------------interests-----------------------------------*/
+
+#interests{
+	background-color: rgb(133,94,66);
+}
+
+/*----------------------------------contact-----------------------------------*/
+
+#contact{
+	background-color: white;
+}
+	#contact-heading{
+		color: black;
+	}
