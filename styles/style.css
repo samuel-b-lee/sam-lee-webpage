@@ -8,7 +8,7 @@
 
 #wrapper{
 	position: absolute;
-	top: 40px;
+	top: 20px;
 }
 
 section{
@@ -21,15 +21,14 @@ section{
 	width: 50%;
 	margin: auto;
 	text-align: center;
-	font-size: 22px;
+	font-size: 25px;
 }
 
 hr {
-    max-width: 50%;
+    max-width: 40%;
     border: 0;
     height: 2px;
     margin: 10px auto;
-
 }
 	/*-----------------------------------------custom faded line---------------------------------------------*/
 	hr.white-line {
@@ -39,7 +38,9 @@ hr {
 		background-image: linear-gradient(to right, white, black, white);
 	}
 
-
+h2,h3,h4{
+	font-weight: lighter;
+}
 a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -49,7 +50,6 @@ a {
 table{
 	margin: 0 auto;
 	text-align: center;
-	border: 1px dashed red;
 }
 
 /*--------------------------------navigation---------------------------------*/
@@ -68,7 +68,7 @@ nav {
 		li a{
 			margin: auto;
 			text-decoration: none;
-			font-size: 20px;
+			font-size: 18px;
 			padding: 11px 15px;
 			color:grey;
 		}
@@ -110,12 +110,12 @@ img#forest-sam-cropped {
 
 #home-content {
 	position: absolute;
-	top: 8%;
-	right: 15%;
+	top: 27%;
+	right: 25%;
 }
 	#title{
 		text-align: center;
-		font-size: 72px;
+		font-size: 80px;
 		font-weight: lighter;
 	}
 	#subtitle {
@@ -139,12 +139,16 @@ img#forest-sam-cropped {
 	background-color: rgb(118,113,113);
 }
 	#skills-table{
-		height: 50px;
+		width: 50%;
 	}
 		.skills-header{
 			font-size: 20px;
 			width: 20%;
 			height: 50px;
+		}
+		.skills-content{
+			font-size: 16px;
+			height: 300px
 		}
 
 /*----------------------------------experience-----------------------------------*/
@@ -152,7 +156,21 @@ img#forest-sam-cropped {
 #experience{
 	background-color: rgb(56,87,35);
 }
-
+	#experience-table{
+		height: 150px;
+		width: 45%;
+	}
+		.experience-title-wrapper{
+			height: 125px;
+		}
+		.experience-title{
+ 			font-size: 20px;
+		}
+			small{
+				color: black;
+				font-weight: bolder;
+				font-size: 15px;
+			}
 /*----------------------------------interests-----------------------------------*/
 
 #interests{
@@ -167,3 +185,27 @@ img#forest-sam-cropped {
 	#contact-heading{
 		color: black;
 	}
+
+	#contact-info-wrapper{
+		text-align: center;
+		padding: 10px;
+	}
+		.contact-info{
+			color:black;
+			font-size: 20px;
+		}
+
+	#contact-link-wrapper{
+		margin: auto;
+		width: 300px;
+		text-align: center;
+	}
+		.contact-link-divs{
+			text-align: center;
+			padding: 10px;
+			display: inline-block;
+		}
+			.contact-links{
+				color: rgb(174,170,170);
+				text-decoration: none;
+			}
