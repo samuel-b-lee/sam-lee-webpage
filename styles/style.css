@@ -176,6 +176,60 @@ img#forest-sam-cropped {
 #interests{
 	background-color: rgb(133,94,66);
 }
+#interests-wrapper{
+	position: relative;
+	padding: 0;
+	height: 420px;
+	max-height: 420px;
+	text-align: center;
+	margin: 0 auto;
+}
+	.interests-div{
+		position: relative;
+		top: 60px;
+		text-align: center;
+		display: inline-block;
+		margin: 0 0.5%;
+		width: 225px;
+		vertical-align: middle;
+
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-color: transparent;
+	}
+		.small{
+			height:300px;
+		}
+		.large{
+			height:325px;
+		}
+			.interests-text{
+				font-size: 22px;
+				margin: 0 auto;
+				position: relative;
+				top: 42%;
+			}
+				.white{
+					color:white;
+				}
+				.black{
+					color:black;
+				}
+			#trekking{
+				background-image: url(../images/mountain-sam.jpg);
+			}
+			#travel{
+				background-image: url(../images/malay-monkey.jpg);
+			}
+			#music{
+				background-image: url(../images/music.jpg);
+			}
+			#food{
+				background-image: url(../images/food.jpg);
+			}
+			#sports{
+				background-image: url(../images/vball-sam.JPG);
+			}
 
 /*----------------------------------contact-----------------------------------*/
 
