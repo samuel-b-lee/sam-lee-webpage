@@ -179,35 +179,45 @@ img#forest-sam-cropped {
 #interests-wrapper{
 	position: relative;
 	padding: 0;
-	height: 420px;
-	max-height: 420px;
+	height: 445px;
 	text-align: center;
 	margin: 0 auto;
 }
-	.interests-div{
+	.interests-div-wrapper{
 		position: relative;
-		top: 60px;
-		text-align: center;
+		top: 30px;
 		display: inline-block;
 		margin: 0 0.5%;
-		width: 225px;
+		width: 235px;
 		vertical-align: middle;
-
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-color: transparent;
 	}
-		.small{
-			height:300px;
+		.i-d-w-small{
+			height:310px;
 		}
-		.large{
-			height:325px;
+		.i-d-w-large{
+			height:335px;
 		}
+			.interests-div{
+				margin: auto;
+				text-align: center;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				background-color: transparent;
+				width: 225px;
+			}
+			.i-d-small{
+				height:300px;
+			}
+			.i-d-large{
+				height:325px;
+			}
+
 			.interests-text{
 				font-size: 22px;
-				margin: 0 auto;
+				font-weight: bold;
 				position: relative;
 				top: 42%;
+				opacity: 0;
 			}
 				.white{
 					color:white;
@@ -224,12 +234,18 @@ img#forest-sam-cropped {
 			#music{
 				background-image: url(../images/music.jpg);
 			}
-			#food{
-				background-image: url(../images/food.jpg);
+			#gaming{
+				background-image: url(../images/gaming.jpg);
 			}
 			#sports{
 				background-image: url(../images/vball-sam.JPG);
 			}
+			/*---------------------------animation-------------------------*/
+
+/*			.small:hover{
+				height: 320px;
+				width:230px;
+			}*/
 
 /*----------------------------------contact-----------------------------------*/
 
