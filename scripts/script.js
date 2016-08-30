@@ -1,6 +1,7 @@
 $(document).ready(function() { 
 
-/*-----------------------------------------------------------------*/
+/*--------------------------interests picture animations-----------------------------*/
+	//large pictures
 	$('.i-d-large').hover(function() {
 
 		$(this).animate({
@@ -22,6 +23,7 @@ $(document).ready(function() {
 
 	})
 
+	//small pictures
 	$('.i-d-small').hover(function() {
 
 		$(this).animate({
@@ -42,6 +44,6 @@ $(document).ready(function() {
 		$('.interests-text', this).fadeTo(600, 0)
 
 	})
-
+/*--------------------------------------------------------------------------------------*/
 });
 
