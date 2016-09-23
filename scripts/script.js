@@ -9,7 +9,7 @@ $(document).ready(function() {
 	        width: "235px",
     	},300);
 
-		$('.interests-text', this).fadeTo(400, 1)
+		$('.interests-text', this).fadeTo(300, 1)
 
 	}, function(){
 		$(this).animate({
@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     	});
 
-		$('.interests-text', this).fadeTo(600, 0)
+		$('.interests-text', this).fadeTo(200, 0)
 
 	})
 
@@ -31,7 +31,7 @@ $(document).ready(function() {
 	        width: "235px",
     	},300);
 
-		$('.interests-text', this).fadeTo(400, 1)
+		$('.interests-text', this).fadeTo(300, 1)
 
 	}, function(){
 		$(this).animate({
@@ -41,7 +41,7 @@ $(document).ready(function() {
 
     	});
 
-		$('.interests-text', this).fadeTo(600, 0)
+		$('.interests-text', this).fadeTo(200, 0)
 
 	})
 /*--------------------------------------------------------------------------------------*/
