@@ -38,8 +38,12 @@ hr {
 		background-image: linear-gradient(to right, white, black, white);
 	}
 
-h2,h3,h4{
+h2,h3,h4,h5{
 	font-weight: lighter;
+}
+
+h5{
+	color: rgb(217, 217, 217);
 }
 
 a {
