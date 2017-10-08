@@ -1,3 +1,8 @@
 # add paths below to ignore files
+
+# recurring junk
 *.DS_Store
 .idea/*
+
+# Non uglified assets
+/vendor/pretty_assets/
