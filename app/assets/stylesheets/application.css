@@ -1,20 +1,7 @@
 * {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: white;
-/*	border: 1px dashed red;*/
 	margin: 0;
-}
-
-#wrapper{
-	position: absolute;
-	top: 20px;
-}
-
-section{
-	position: relative;
-	width: 100%;
-	padding: 100px 0;
 }
 
 .section-heading{
@@ -23,92 +10,27 @@ section{
 	text-align: center;
 	font-size: 25px;
 }
-
-hr {
-    max-width: 40%;
-    border: 0;
-    height: 2px;
-    margin: 10px auto;
+/*-----------------------------------------custom faded line---------------------------------------------*/
+hr.white-line {
+	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
 }
-	/*-----------------------------------------custom faded line---------------------------------------------*/
-	hr.white-line {
-		background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
-	}
-	hr.black-line {
-		background-image: linear-gradient(to right, white, black, white);
-	}
-
-h2,h3,h4,h5{
-	font-weight: lighter;
+hr.black-line {
+	background-image: linear-gradient(to right, white, black, white);
 }
 
-h5{
-	color: rgb(217, 217, 217);
-}
-
-a {
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-    text-decoration: none;
-    color: rgb(217, 217, 217);
-}
-
-table{
-	margin: 0 auto;
-	text-align: center;
-}
-
-sup{
-	font-size: small;
-}
-
-/*--------------------------------navigation---------------------------------*/
-nav {
-	position: fixed;
-	top: 0;
-
-	z-index: 10;
-	width: 100%;
-	height: 44px;
-	background-color: black;
-}
-	li {
-		display: inline;
-	}
-		li a{
-			margin: auto;
-			font-size: 20px;
-			padding: 11px 15px;
-		}
-		.page-scroll{
-			float: right;
-		}
-
-		.page-scroll-home{
-			position: absolute;
-			left: 10px;
-			font-weight: bold;
-		}
-/*----------------------------------home-----------------------------------*/
-#home{
-	position: relative;
-	top: 4px;
-}
 
 /*********************image********************/
 img#forest-sam-cropped {
   /* Set rules to fill background */
   min-height: 548px;
   min-width: 1020px;
-    
+
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-    
+
   /* static position */
 }
-
 @media screen and (max-width: 100%) { /* Specific to this particular image */
   img#forest-sam-cropped {
     left: 50%;
@@ -122,81 +44,76 @@ img#forest-sam-cropped {
 	top: 27%;
 	right: 25%;
 }
-	#title{
-		text-align: center;
-		font-size: 80px;
-		font-weight: lighter;
-	}
-	#subtitle {
-		text-align: center;
-		color: rgb(160,160,160);
-		font-size: 24px;
-		margin-top: 30px
-	}
+#title{
+	text-align: center;
+	font-size: 80px;
+	font-weight: lighter;
+}
+#subtitle {
+	text-align: center;
+	color: rgb(160,160,160);
+	font-size: 24px;
+	margin-top: 30px
+}
 /*----------------------------------about-----------------------------------*/
 
 #about{
 	background-color: rgb(133,94,66);
 }
-	#about-content{
-		text-align: center;
-		margin: auto;
-		width: 50%;
-	}
+#about-content{
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
 /*----------------------------------skills-----------------------------------*/
 
 #skills{
 	background-color: rgb(118,113,113);
 }
-	#skills-table{
-		width: 50%;
-	}
-		.skills-header{
-			font-size: 20px;
-			width: 20%;
-			height: 50px;
-		}
-		.skills-contents{
-			font-size: 16px;
-			text-align: left;
-			vertical-align: text-top;
-			padding: 10px 20px;
-		}
+#skills-table{
+	width: 50%;
+}
+.skills-header{
+	font-size: 20px;
+	width: 20%;
+	height: 50px;
+}
+.skills-contents{
+	font-size: 16px;
+	text-align: left;
+	vertical-align: text-top;
+	padding: 10px 20px;
+}
 
 /*----------------------------------experience-----------------------------------*/
 
 #experience{
 	background-color: rgb(56,87,35);
 }
-	#experience-table{
-		height: 150px;
-		width: 46%;
-		border-collapse: collapse;
-	}
-	.experience-title-wrapper, .experience-info-wrapper{
-		border-bottom: 1px solid black;
-		padding: 0;
-		width: 23%;
-	}
-		.experience-title-wrapper{
-			height: 125px;
-		}
-		.experience-title{
- 			font-size: 20px;
-		}
-			small{
-				color: black;
-				font-weight: bolder;
-				font-size: 15px;
-			}
-		.experience-info{
-			text-align: left;
-		}
-		.experience-info small{
-			color: grey;
-			font-size: 12px;
-			text-align: center;
-		}
+#experience-table{
+	height: 150px;
+	width: 46%;
+	border-collapse: collapse;
+}
+.experience-title-wrapper, .experience-info-wrapper{
+	border-bottom: 1px solid black;
+	padding: 0;
+	width: 23%;
+}
+.experience-title-wrapper{
+	height: 125px;
+}
+.experience-title{
+	font-size: 20px;
+}
+.experience-info{
+	text-align: left;
+}
+.experience-info small{
+	color: grey;
+	font-size: 12px;
+	text-align: center;
+}
 
 /*----------------------------------interests-----------------------------------*/
 
@@ -210,92 +127,86 @@ img#forest-sam-cropped {
 	text-align: center;
 	margin: 0 auto;
 }
-	.interests-div-wrapper{
-		position: relative;
-		top: 30px;
-		display: inline-block;
-		margin: 0 0.5%;
-		width: 235px;
-		vertical-align: middle;
-	}
-		.i-d-w-small{
-			height:310px;
-		}
-		.i-d-w-large{
-			height:335px;
-		}
-			.interests-div{
-				margin: auto;
-				text-align: center;
-				background-repeat: no-repeat;
-				background-size: 100% 100%;
-				background-color: transparent;
-				width: 225px;
-			}
-			.i-d-small{
-				height:300px;
-			}
-			.i-d-large{
-				height:325px;
-			}
+.interests-div-wrapper{
+	position: relative;
+	top: 30px;
+	display: inline-block;
+	margin: 0 0.5%;
+	width: 235px;
+	vertical-align: middle;
+}
+.i-d-w-small{
+	height:310px;
+}
+.i-d-w-large{
+	height:335px;
+}
+.interests-div{
+	margin: auto;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: transparent;
+	width: 225px;
+}
+.i-d-small{
+	height:300px;
+}
+.i-d-large{
+	height:325px;
+}
 
-			.interests-text{
-				font-size: 22px;
-				font-weight: bold;
-				position: relative;
-				top: 42%;
-				opacity: 0;
-			}
-				.white{
-					color:white;
-				}
-				.black{
-					color:black;
-				}
-			#trekking{
-				background-image: url(../images/mountain-sam.jpg);
-			}
-			#travel{
-				background-image: url(../images/malay-monkey.jpg);
-			}
-			#music{
-				background-image: url(../images/music-sam.JPG);
-			}
-			#gaming{
-				background-image: url(../images/gaming-sam.JPG);
-			}
-			#sports{
-				background-image: url(../images/vball-sam.JPG);
-			}
+.interests-text{
+	font-size: 22px;
+	font-weight: bold;
+	position: relative;
+	top: 42%;
+	opacity: 0;
+}
+#trekking{
+	background-image: url(../images/mountain-sam.jpg);
+}
+#travel{
+	background-image: url(../images/malay-monkey.jpg);
+}
+#music{
+	background-image: url(../images/music-sam.JPG);
+}
+#gaming{
+	background-image: url(../images/gaming-sam.JPG);
+}
+#sports{
+	background-image: url(../images/vball-sam.JPG);
+}
 
 /*----------------------------------contact-----------------------------------*/
 
 #contact{
 	background-color: white;
 }
-	#contact-heading{
-		color: black;
-	}
+#contact-heading{
+	color: black;
+}
 
-	#contact-info-wrapper{
-		text-align: center;
-		padding: 10px;
-	}
-		.contact-info{
-			color:black;
-			font-size: 20px;
-		}
+#contact-info-wrapper{
+	text-align: center;
+	padding: 10px;
+}
+.contact-info{
+	color:black;
+	font-size: 20px;
+}
 
-	#contact-link-wrapper{
-		margin: auto;
-		width: 300px;
-		text-align: center;
-	}
-		.contact-link-divs{
-			text-align: center;
-			padding: 10px;
-			display: inline-block;
-		}
-			.contact-links{
-				color: rgb(174,170,170);
-			}
+#contact-link-wrapper{
+	margin: auto;
+	width: 300px;
+	text-align: center;
+}
+.contact-link-divs{
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+}
+.contact-links{
+	color: rgb(174,170,170);
+}
